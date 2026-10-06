@@ -10,7 +10,7 @@ These projects(questions) cover Heap Priority Queues, Minimum Spanning Trees (MS
 .
 ├── LICENSE
 ├── .gitignore
-├── README.md				# documentation
+├── README.md				
 ├── question1/                          # Airport Baggage Priority Queue
 ├── question2/                          # Hospital Triage Priority System
 ├── question3/                          # Electric Vehicle Charging Power Net MST
@@ -67,7 +67,7 @@ gcc routing_analyser.c -o routing_analyser
 * **Objective:** Manage a dynamic airline container queue matching highest priority attributes under \(O(\log N)\) timing boundaries using an array-based Max-Heap.
 * **Technique:** Leverages Floyd's bottom-up linear time O(N) heapification algorithm alongside defensive parent/child mapping indices.
 * **Detailed Explanation:**
-  [Question 1 Explanation](question1/README.md)
+  [Question 1](question1/README.md)
 * **Execution Verification:**
   ![Question 1 Sample Output](question1/sample_output.png)
 
@@ -75,7 +75,7 @@ gcc routing_analyser.c -o routing_analyser
 * **Objective:** Maintain structural string bindings for records containing Patient IDs, names, and health weights, outputting patient treatment ordering smoothly.
 * **Technique:** Implements deep memory cloning techniques to execute non-destructive node extraction passes, keeping the target primary queue structure active for follow-up operations.
 * **Detailed Explanation:**
-  [Question 2 Explanation](question2/README.md)
+  [Question 2](question2/README.md)
 * **Execution Verification:**
   ![Question 2 Sample Output](question2/sample_output.png)
 
@@ -83,7 +83,7 @@ gcc routing_analyser.c -o routing_analyser
 * **Objective:** Design a minimum-cost underground cable pipeline network spanning all delivery sectors with no layout routing loop cycles.
 * **Technique:** Employs Kruskal's Algorithm backed by an optimized Disjoint Set Union (DSU) tracking structure complete with recursive Path Compression and Union by Rank to achieve tight \(O(E \log E)\) execution metrics.
 * **Detailed Explanation:**
-  [Question 3 Explanation](question3/README.md)
+  [Question 3](question3/README.md)
 * **Execution Verification:**
   ![Question 3 Sample Output](question3/sample_output.png)
 
@@ -91,7 +91,7 @@ gcc routing_analyser.c -o routing_analyser
 * **Objective:** Track 1-hop wireless broadcast neighbors from an interactive consumer baseline access point, assessing peak local transfer delays.
 * **Technique:** Runs an explicit pointer-managed FIFO Queue configuration driving classic Breadth-First Search (BFS) graph discovery passes.
 * **Detailed Explanation:**
-  [Question 4 Explanation](question4/README.md)
+  [Question 4](question4/README.md)
 * **Execution Verification:**
   ![Question 4 Sample Output](question4/sample_output.png)
 
@@ -99,7 +99,7 @@ gcc routing_analyser.c -o routing_analyser
 * **Objective:** Uncover minimum cumulative delivery paths between distributed network servers while evaluating hardware performance optimization optimization credits.
 * **Technique:** Leverages the Bellman-Ford algorithm operating across V-1 relaxation passes. Includes a V-th verification loop to confidently isolate negative-weight cycles and maps routing layouts through clean column character padding.
 * **Detailed Explanation:**
-  [Question 5 Explanation](question5/README.md)
+  [Question 5](question5/README.md)
 * **Execution Verification:**
   ![Question 5 Sample Output](question5/sample_output.png)
 
